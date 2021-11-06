@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(180deg, rgba(57,57,255,1) 0%, rgba(0,212,255,1) 100%);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+form {
+    background: #FFF;
+    color: #FFF;
+    width: 480px;
+    height: 550px;
+    font-size: 20px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    box-shadow: 3px 1px 10px 3px rgba(0, 0, 0, 0.5);
+} 
+
+form h1 {
+    font-size: 30px;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 20px;
+    color: #000;
+    margin-bottom: 20px;
+}
+
+.form-area {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #000;
+}
+
+.form-area p {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.form-area input {
+    display: flex;
+    width: 300px;
+    height: 25px;
+    padding: 5px;
+    font-size: 18px;
+    border-radius: 5px;
+    border: 1px solid #DDD;
+    margin-bottom: 10px;
+    margin-top: 3px;
+}
+
+.socials {
+    display: flex;
+    justify-content: space-between;
+    width: 310px;
+}
+
+.linkedin-area {
+    display: flex;
+    justify-content: center;
+    width: 135px;
+}
+
+.facebook a, .linkedin a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    border-radius: 5px;
+    text-decoration: none;
+    width: 145px;
+    height: 30px;
+    color: #FFF;
+}
+
+.linkedin a {
+    background-color: #0270AD;
+}
+
+.linkedin a:hover {
+    background-color: #004182;
+}
+
+.linkedin i, .facebook i {
+    margin-right: 8px;
+}
+
+.facebook a {
+    background-color: #166FE5;
+}
+
+.facebook a:hover {
+    background-color: #4064AC;
+}
+
+.form-area button {
+    width: 310px;
+    height: 35px;
+    margin-top: 20px;
+    background: #3939f9;
+    border: none;
+    border-radius: 5px;
+    color: #FFF;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.form-area button:hover {
+    background-color: #02ABE4;
+}
+
+@media screen and (max-width: 500px) {
+    form {
+        width: 350px;
+        height: 450px;
+    }
+
+    form h1 {
+        font-size: 20px;
+    }
+
+    .form-area {
+        font-size: 15px;
+    }
+
+    .form-area input {
+        width: 270px;
+        height: 20px;
+    }
+
+    .form-area p {
+        margin-top: 5px;
+    }
+
+    .socials {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .linkedin a, .facebook a {
+        width: 125px;
+        height: 25px;
+    }
+
+    .form-area button {
+        margin-top: 10px;
+        width: 280px;
+        height: 30px;
+    }
+}
